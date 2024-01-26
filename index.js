@@ -62,8 +62,6 @@ xhr.addEventListener("load", onRequestHandler);
 xhr.open("GET", `${API_URL}`);
 xhr.send();
 
-
-
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -126,7 +124,6 @@ function contnega(){
     }
 }
 
-
 var modal = document.getElementById("myModal");
 var btn = document.getElementById("openModal");
 var span = document.getElementsByClassName("close")[0];
@@ -141,7 +138,6 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-
 
 var colorOrder = "Select the color";
 document.querySelector(".color-order").innerHTML = '<strong>Color: </strong>'+colorOrder;
